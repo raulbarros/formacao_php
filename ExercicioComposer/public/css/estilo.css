@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:300);
+
+a{
+	color: #123456;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+div#cabecalho{
+	display: block;
+	border-bottom: 1px solid #000000;
+	padding: 10px;*/
+}
+
+div#cabecalho span{
+	color: #123456;
+	background-color: #dddddd;	  	 	
+	padding: 8px;
+	text-align: center;
+	position: relative; 
+	font-family: 'Oswald', sans-serif;
+	font-size: 18pt;
+	margin-left: 1%;
+	margin-top:10%;
+
+ 	/*width:50px;*/
+}	
+/* section#cabecalho h2 {
+ 	position: relative;
+ 	margin-top: 10px;
+ 	margin-bottom:0px: 
+ 	padding: 0px;
+ }*/
+section ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 8%;
+	left:3%;
+}
+
+section li{
+	font-weight: bold;
+	font-family: 'Palanquin', sans-serif;
+	background-color: #d2d2d2;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.8);
+	padding: 5px;
+	margin: 5px;
+	width: 100px;
+	transition: background-color 1s;
+}
+
+section li:hover{
+	background-color: #606060;
+}
